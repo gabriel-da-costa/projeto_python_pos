@@ -1,0 +1,10 @@
+{
+  "qtd_total": 3742,
+  "receita_total": 1078696.25,
+  "preco_medio": 288.27,
+  "desafio_fp": {
+    "soma_quadrados": 63284,
+    "contagem": 62,
+    "media_inteira": 1020
+  }
+}

@@ -1,0 +1,1 @@
+# Este arquivo vazio torna o diretório 'core' um subpacote Python.
