@@ -81,16 +81,20 @@ A interface do Streamlit estará disponível em http://localhost:8501.
 
 Screenshots da API
 
+<img width="1364" height="672" alt="Image" src="https://github.com/user-attachments/assets/2fa5da5f-db05-455f-afb4-3ae36da74ca4" />
+
+<img width="1359" height="629" alt="Image" src="https://github.com/user-attachments/assets/8a7b5601-b6f8-4f28-ac54-fb980b1b4347" />
+
 Aqui estão exemplos dos retornos da API após a execução.
 
 Documentação Interativa (/docs)
 
 Acesse http://127.0.0.1:8000/docs para ver a documentação gerada automaticamente pelo FastAPI.
 
-(Adicione aqui um print da sua tela mostrando a página /docs)
+<img width="1362" height="480" alt="Image" src="https://github.com/user-attachments/assets/52852970-81c9-4094-9510-609c85027288" />
 
 Retorno do Endpoint (/stats)
 
 Acesse http://127.0.0.1:8000/stats para ver o conteúdo do stats.json.
 
-(Adicione aqui um print da sua tela mostrando o JSON de retorno do /stats)
+<img width="1358" height="676" alt="Image" src="https://github.com/user-attachments/assets/a9e0a077-c96c-48d6-9768-96e1f21eed7b" />
