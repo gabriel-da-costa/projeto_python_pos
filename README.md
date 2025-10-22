@@ -39,9 +39,6 @@ pip (gerenciador de pacotes do Python)
 
 2. Instalação
 
-Primeiro, clone o repositório e navegue para a pasta do projeto. Em seguida, crie um ambiente virtual e instale as dependências:
-
-# Criar e ativar um ambiente virtual (recomendado)
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
 
@@ -51,18 +48,15 @@ pip install -r requirements.txt
 
 3. Gerar as Estatísticas
 
-Antes de iniciar a API, gerar o arquivo stats.json. Este arquivo contém os cálculos feitos a partir do dados.csv.
-
-Execute o seguinte comando na raiz do projeto:
+Executar o seguinte comando na raiz do projeto:
 
 python src/make_stats.py
-
 
 Isso irá criar (ou sobrescrever) o arquivo src/stats.json com as estatísticas atualizadas.
 
 4. Iniciar a API FastAPI
 
-Com as estatísticas geradas, você pode iniciar o servidor da API.
+Com as estatísticas geradas, iniciar o servidor da API.
 
 uvicorn src.app:app --reload
 
@@ -71,10 +65,7 @@ A API estará disponível em http://127.0.0.1:8000.
 
 5. Iniciar a Interface Streamlit (Opcional)
 
-Para visualizar os dados de forma interativa, abra um novo terminal (mantendo a API rodando no primeiro) e execute a aplicação Streamlit:
-
 streamlit run ui/app.py
-
 
 A interface do Streamlit estará disponível em http://localhost:8501.
 
