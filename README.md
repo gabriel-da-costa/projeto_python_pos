@@ -8,20 +8,20 @@ O objetivo principal é demonstrar a integração de diferentes tecnologias Pyth
 
 Estrutura do Projeto
 
-seu_projeto/
+projeto_python_pos/
 ├── data/
 │   └── dados.csv
 ├── src/
 │   ├── core/
 │   │   ├── __init__.py
-│   │   ├── metrics.py      # Função 'analisar' (Programação Funcional)
-│   │   └── models.py       # Classes DataLoader e StatsService (OOP)
+│   │   ├── metrics.py      
+│   │   └── models.py      
 │   ├── __init__.py
-│   ├── app.py              # API FastAPI com os endpoints /health, /stats, /soma
-│   ├── make_stats.py       # Script para ler o CSV e gerar o stats.json
-│   └── stats.json          # Arquivo gerado com as estatísticas
+│   ├── app.py              
+│   ├── make_stats.py      
+│   └── stats.json         
 ├── ui/
-│   └── app.py              # Interface com Streamlit
+│   └── app.py              
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 3. Gerar as Estatísticas
 
-Antes de iniciar a API, você precisa gerar o arquivo stats.json. Este arquivo contém os cálculos feitos a partir do dados.csv.
+Antes de iniciar a API, gerar o arquivo stats.json. Este arquivo contém os cálculos feitos a partir do dados.csv.
 
 Execute o seguinte comando na raiz do projeto:
 
@@ -64,7 +64,6 @@ Isso irá criar (ou sobrescrever) o arquivo src/stats.json com as estatísticas 
 
 Com as estatísticas geradas, você pode iniciar o servidor da API.
 
-# O --reload faz o servidor reiniciar automaticamente após mudanças no código
 uvicorn src.app:app --reload
 
 
